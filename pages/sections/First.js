@@ -23,14 +23,14 @@ export default function First() {
         quality={100}
       />
       <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
-        <div className="flex items-center p-3 space-x-4 lg:p-6 bg-warning text-blue-dark">
+        <div className="flex items-center self-stretch p-3 space-x-4 lg:p-6 bg-warning text-blue-dark">
           <Image alt="" width="48" height="48" src={bed} />
           <div>
             <span>3 Dormitorios</span>
             <div>2 baños</div>
           </div>
         </div>
-        <div className="flex items-center p-3 space-x-6 lg:p-6 bg-success text-blue-dark">
+        <div className="flex items-center self-stretch p-3 space-x-6 lg:p-6 bg-success text-blue-dark">
           <Image alt="" width="40" height="40" src={measure} />
           <div>
             <span>Desde</span>
@@ -39,7 +39,7 @@ export default function First() {
             </div>
           </div>
         </div>
-        <div className="flex items-center p-3 space-x-6 lg:p-6 bg-info text-blue-dark">
+        <div className="flex items-center self-stretch p-3 space-x-6 lg:p-6 bg-info text-blue-dark">
           <Image alt="" width="48" height="48" src={map} />
           <div>
             <span>Dirección</span>
