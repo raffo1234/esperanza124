@@ -31,7 +31,7 @@ export default function First() {
           </div>
         </div>
         <div className="flex items-center p-3 space-x-6 lg:p-6 bg-success text-blue-dark">
-          <Image alt="" width="48" height="48" src={measure} />
+          <Image alt="" width="40" height="40" src={measure} />
           <div>
             <span>Desde</span>
             <div>
