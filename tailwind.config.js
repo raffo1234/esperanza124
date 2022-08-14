@@ -29,6 +29,9 @@ module.exports = {
           900: "#372950",
         },
         beige: "#FBF7EE",
+        green: {
+          light: "#e6eded",
+        },
         success: "#00cc9f",
         info: "#48a1e7",
         warning: "#fdc449",

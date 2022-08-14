@@ -8,10 +8,8 @@ export default function Header() {
       <div className="flex justify-between w-full max-w-screen-xl px-6 py-4 mx-auto">
         <h1>
           <a href="./" title="Esperanza">
-            <span className="font-serif text-4xl font-bold text-success">
-              Esperanza
-            </span>
-            <span className="font-sans text-black">124</span>
+            <span className="text-4xl font-bold">Esperanza</span>
+            <span className="text-success">124</span>
           </a>
         </h1>
         <nav>
