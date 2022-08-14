@@ -5,8 +5,9 @@ import Header from "./sections/Header";
 import Features from "./sections/Features";
 import Gallery from "./sections/Gallery";
 import Address from "./sections/Address";
+import Footer from "./sections/Footer";
 
-const sections = [First, Features, Gallery, Address];
+const sections = [First, Features, Gallery, Address, Footer];
 
 export default function Home() {
   return (
