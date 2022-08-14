@@ -4,6 +4,7 @@ import Image from "next/image";
 import Subtitle from "components/Subtitle";
 import tv from "public/images/tv.jpeg";
 import tv2 from "public/images/tv2.png";
+import living from "public/images/living.png";
 
 export default function Gallery() {
   return (
@@ -19,7 +20,7 @@ export default function Gallery() {
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={tv}
+                src={living}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -67,7 +68,7 @@ export default function Gallery() {
             </div>
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={tv}
+                src={living}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
