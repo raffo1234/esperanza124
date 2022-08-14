@@ -16,27 +16,28 @@ export default function Features() {
         <div className="items-center space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
           <div className="flex-1">
             <div className="flex items-center w-full mb-2">
+              <div className="p-3 text-4xl font-bold bg-success">A</div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
                 <Image alt="" width="36" height="36" src={bed} />
                 <div>
-                  <span>Área total</span>
-                  <div>
+                  <div className="text-sm">Área total</div>
+                  <strong className="text-lg">
                     76 m<sup>2</sup>
-                  </div>
+                  </strong>
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <Image alt="" width="30" height="30" src={measure} />
                 <div>
-                  <span>Dormitorios</span>
-                  <div>3</div>
+                  <div className="text-sm">Dormitorios</div>
+                  <strong className="text-lg">3</strong>
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <Image alt="" width="48" height="48" src={map} />
                 <div>
-                  <span>Baños</span>
-                  <div>2</div>
+                  <div className="text-sm">Baños</div>
+                  <strong className="text-lg">2</strong>
                 </div>
               </div>
             </div>
@@ -54,27 +55,28 @@ export default function Features() {
           </div>
           <div className="flex-1">
             <div className="flex items-center w-full mb-2">
+              <div className="p-3 text-4xl font-bold bg-success">B</div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
                 <Image alt="" width="36" height="36" src={bed} />
                 <div>
-                  <span>Área total</span>
-                  <div>
+                  <div className="text-sm">Área total</div>
+                  <strong className="text-lg">
                     76 m<sup>2</sup>
-                  </div>
+                  </strong>
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <Image alt="" width="30" height="30" src={measure} />
                 <div>
-                  <span>Dormitorios</span>
-                  <div>3</div>
+                  <div className="text-sm">Dormitorios</div>
+                  <strong className="text-lg">3</strong>
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <Image alt="" width="48" height="48" src={map} />
                 <div>
-                  <span>Baños</span>
-                  <div>2</div>
+                  <div className="text-sm">Baños</div>
+                  <strong className="text-lg">2</strong>
                 </div>
               </div>
             </div>
