@@ -5,8 +5,8 @@ import Subtitle from "components/Subtitle";
 import tipoa from "public/images/tipo-a.png";
 import tipob from "public/images/tipo-b.png";
 import bed from "public/icons/bed.svg";
-import measure from "public/icons/measure.svg";
-import map from "public/icons/map.svg";
+import area from "public/icons/area.svg";
+import shower from "public/icons/shower.svg";
 
 export default function Features() {
   return (
@@ -19,7 +19,7 @@ export default function Features() {
               <div className="p-3 text-4xl font-bold bg-success">A</div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
                 <div className="flex-shrink-0">
-                  <Image alt="" width="30" height="30" src={bed} />
+                  <Image alt="" width="30" height="30" src={area} />
                 </div>
                 <div>
                   <div className="text-sm">Área total</div>
@@ -30,7 +30,7 @@ export default function Features() {
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <div className="flex-shrink-0">
-                  <Image alt="" width="28" height="28" src={measure} />
+                  <Image alt="" width="42" height="42" src={bed} />
                 </div>
                 <div>
                   <div className="text-sm">Dormitorios</div>
@@ -39,7 +39,7 @@ export default function Features() {
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <div className="flex-shrink-0">
-                  <Image alt="" width="40" height="40" src={map} />
+                  <Image alt="" width="32" height="32" src={shower} />
                 </div>
                 <div>
                   <div className="text-sm">Baños</div>
@@ -64,7 +64,7 @@ export default function Features() {
               <div className="p-3 text-4xl font-bold bg-success">B</div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
                 <div className="flex-shrink-0">
-                  <Image alt="" width="30" height="30" src={bed} />
+                  <Image alt="" width="30" height="30" src={area} />
                 </div>
                 <div>
                   <div className="text-sm">Área total</div>
@@ -75,7 +75,7 @@ export default function Features() {
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <div className="flex-shrink-0">
-                  <Image alt="" width="28" height="28" src={measure} />
+                  <Image alt="" width="42" height="42" src={bed} />
                 </div>
                 <div>
                   <div className="text-sm">Dormitorios</div>
@@ -84,7 +84,7 @@ export default function Features() {
               </div>
               <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
                 <div className="flex-shrink-0">
-                  <Image alt="" width="40" height="40" src={map} />
+                  <Image alt="" width="32" height="32" src={shower} />
                 </div>
                 <div>
                   <div className="text-sm">Baños</div>

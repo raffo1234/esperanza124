@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import mapIcon from "public/icons/map.svg";
+import location from "public/icons/location.svg";
 import mapImage from "public/images/map.png";
 import Container from "components/Container";
 import Subtitle from "components/Subtitle";
@@ -19,7 +19,7 @@ export default function Address() {
         <div className="p-3 bg-white rounded lg:p-6">
           <h3 className="flex items-center space-x-6">
             <div className="px-3 py-2 rounded bg-warning">
-              <Image alt="" width="32" height="32" src={mapIcon} />
+              <Image alt="" width="32" height="32" src={location} />
             </div>
             <p>Pasaje La Esperanza 124, Pio Pata, El Tambo</p>
           </h3>

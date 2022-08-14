@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import home from "public/images/home.jpeg";
-import map from "public/icons/map.svg";
+import location from "public/icons/location.svg";
 import bed from "public/icons/bed.svg";
-import measure from "public/icons/measure.svg";
+import area from "public/icons/area.svg";
 
 export default function First() {
   return (
@@ -31,7 +31,7 @@ export default function First() {
           </div>
         </div>
         <div className="flex items-center self-stretch p-3 space-x-6 lg:p-6 bg-success text-blue-dark">
-          <Image alt="" width="40" height="40" src={measure} />
+          <Image alt="" width="40" height="40" src={area} />
           <div>
             <span>Desde</span>
             <div>
@@ -40,7 +40,7 @@ export default function First() {
           </div>
         </div>
         <div className="flex items-center self-stretch p-3 space-x-6 lg:p-6 bg-info text-blue-dark">
-          <Image alt="" width="48" height="48" src={map} />
+          <Image alt="" width="42" height="42" src={location} />
           <div>
             <span>Dirección</span>
             <div>Pje. La Esperanza 124, El Tambo</div>
