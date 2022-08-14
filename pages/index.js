@@ -2,11 +2,10 @@ import React from "react";
 import Head from "next/head";
 import First from "./sections/First";
 import Header from "./sections/Header";
-import Second from "./sections/Address";
-import Three from "./sections/Three";
-import Menu from "./sections/Menu";
+import Address from "./sections/Address";
+import Gallery from "./sections/Gallery";
 
-const sections = [First, Second, Three];
+const sections = [First, Address, Gallery];
 
 export default function Home() {
   return (

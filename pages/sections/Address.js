@@ -6,6 +6,7 @@ import mapImage from "public/images/map.png";
 export default function Address() {
   return (
     <section
+      id="ubicacion"
       className="py-16"
       style={{
         background: "linear-gradient(128.51deg, #dbd5ed 32.94%, #f3e7ea 89.6%)",
