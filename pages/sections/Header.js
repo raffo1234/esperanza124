@@ -4,7 +4,7 @@ import whatsapp from "public/icons/whatsapp.svg";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white">
+    <header className="fixed top-0 left-0 right-0 z-30 bg-white">
       <div className="flex justify-between w-full max-w-screen-xl px-6 py-4 mx-auto">
         <h1>
           <a href="./" title="Esperanza">

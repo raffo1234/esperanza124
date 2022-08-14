@@ -16,10 +16,10 @@ export default function Home() {
         <meta name="description" content="Esperanza" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       {sections.map((Section, index) => (
         <Section key={index} />
       ))}
-      <Header />
     </div>
   );
 }

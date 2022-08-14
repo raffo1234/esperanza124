@@ -21,13 +21,17 @@ module.exports = {
       },
       colors: {
         capri: "#f9ece5",
+        blue: {
+          dark: "#140944",
+        },
         neutral: {
           100: "#ccc",
           900: "#372950",
         },
-        success: "green",
-        info: "#3641b7",
-        warning: "#fdb400",
+        beige: "#FBF7EE",
+        success: "#00cc9f",
+        info: "#48a1e7",
+        warning: "#fdc449",
         danger: "#ff5570",
         whatsapp: "#24d366",
       },
