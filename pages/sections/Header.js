@@ -33,7 +33,7 @@ export default function Header() {
             </li>
             <li className="ml-6">
               <a
-                href="https://api.whatsapp.com/send?phone=51997258592"
+                href="https://wa.me/51997258592"
                 className="flex items-center justify-center p-2 rounded bg-whatsapp"
                 target="_blank"
                 rel="noreferrer"
