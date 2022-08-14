@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import home from "public/images/home.png";
+import home from "public/images/home.jpeg";
 import location from "public/icons/location.svg";
 import bed from "public/icons/bed.svg";
 import area from "public/icons/area.svg";
