@@ -2,7 +2,8 @@ import React from "react";
 import Container from "components/Container";
 import Image from "next/image";
 import Subtitle from "components/Subtitle";
-import home from "public/images/home.jpeg";
+import tv from "public/images/tv.jpeg";
+import tv2 from "public/images/tv2.png";
 
 export default function Gallery() {
   return (
@@ -18,7 +19,7 @@ export default function Gallery() {
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={home}
+                src={tv}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -29,7 +30,7 @@ export default function Gallery() {
             </div>
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={home}
+                src={tv}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -42,7 +43,7 @@ export default function Gallery() {
           <div className="flex items-center space-x-5">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={home}
+                src={tv2}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -55,7 +56,7 @@ export default function Gallery() {
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={home}
+                src={tv}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -66,7 +67,7 @@ export default function Gallery() {
             </div>
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={home}
+                src={tv}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
