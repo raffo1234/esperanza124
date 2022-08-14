@@ -7,10 +7,10 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-30 bg-white">
       <Container>
-        <div className="flex justify-between px-6 py-4">
+        <div className="flex items-center justify-between py-4">
           <h1>
-            <a href="./" title="Esperanza">
-              <span className="text-4xl font-bold">Esperanza</span>
+            <a href="./" title="Esperanza 124">
+              <span className="text-2xl font-bold lg:text-3xl">Esperanza</span>{" "}
               <span className="text-success">124</span>
             </a>
           </h1>

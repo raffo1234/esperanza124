@@ -10,7 +10,7 @@ const sections = [First, Features, Gallery, Address];
 
 export default function Home() {
   return (
-    <div className="bg-capri">
+    <div className="text-xs bg-capri lg:text-base">
       <Head>
         <title>Esperanza 124</title>
         <meta name="description" content="Esperanza 124" />

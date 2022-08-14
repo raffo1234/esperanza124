@@ -14,16 +14,14 @@ export default function Address() {
       }}
     >
       <Container>
-        <div className="px-6 py-4">
-          <h1 className="mb-10 font-serif text-4xl font-bold">Encuéntranos</h1>
-          <div className="p-6 bg-white">
+        <div className="py-4">
+          <h1 className="mb-6 font-serif text-4xl font-bold">Encuéntranos</h1>
+          <div className="p-3 bg-white rounded lg:p-6">
             <h3 className="flex items-center space-x-6">
               <div className="px-3 py-2 rounded bg-warning">
                 <Image alt="" width="32" height="32" src={mapIcon} />
               </div>
-              <p className="text-lg">
-                Pasaje La Esperanza 124, Pio Pata, El Tambo
-              </p>
+              <p>Pasaje La Esperanza 124, Pio Pata, El Tambo</p>
             </h3>
             <div className="w-full h-px my-6 bg-warning"></div>
             <div className="relative">
