@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import home from "public/images/home.jpeg";
+import home from "public/images/home.png";
 import location from "public/icons/location.svg";
 import bed from "public/icons/bed.svg";
 import area from "public/icons/area.svg";
 
-export default function First() {
+export default function Hero() {
   return (
     <div
       style={{
@@ -22,6 +22,9 @@ export default function First() {
         objectPosition="center"
         quality={100}
       />
+      <p className="absolute z-20 font-serif font-bold text-right text-white -translate-y-1/2 text-8xl right-10 top-1/2">
+        Entrega <br /> Inmediata
+      </p>
       <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
         <div className="flex items-center self-stretch p-3 space-x-4 lg:p-6 bg-warning text-blue-dark">
           <Image alt="" width="48" height="48" src={bed} />
