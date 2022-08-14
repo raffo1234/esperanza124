@@ -12,7 +12,8 @@ export default function Gallery() {
       style={{
         background: "linear-gradient(128.51deg, #FFFFFF 32.94%, #EBF4FD 89.6%)",
       }}
-      className="py-16"
+      id="galeria"
+      className="py-20"
     >
       <Container>
         <Subtitle>Galeria</Subtitle>

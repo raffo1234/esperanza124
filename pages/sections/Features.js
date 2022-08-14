@@ -10,7 +10,7 @@ import map from "public/icons/map.svg";
 
 export default function Features() {
   return (
-    <div id="tipologia" className="py-16 bg-beige">
+    <div id="tipologia" className="py-20 bg-beige">
       <Container>
         <Subtitle>Tipología</Subtitle>
         <div className="items-center space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">

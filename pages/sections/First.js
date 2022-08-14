@@ -22,7 +22,7 @@ export default function First() {
         objectPosition="center"
         quality={100}
       />
-      <div className="absolute bottom-0 left-0 right-0 z-20 flex flex-wrap items-center justify-center mx-auto">
+      <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
         <div className="flex items-center p-3 space-x-4 lg:p-6 bg-warning text-blue-dark">
           <Image alt="" width="48" height="48" src={bed} />
           <div>
