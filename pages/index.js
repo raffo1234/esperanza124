@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import First from "./sections/First";
 import Header from "./sections/Header";
-import Second from "./sections/Second";
+import Second from "./sections/Address";
 import Three from "./sections/Three";
 import Menu from "./sections/Menu";
 
