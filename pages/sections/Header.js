@@ -17,8 +17,8 @@ export default function Header() {
           <nav>
             <ul className="flex items-center">
               <li>
-                <a href="#caracteristicas" className="p-1 lg:p-4">
-                  Características
+                <a href="#tipologia" className="p-1 lg:p-4">
+                  Tipología
                 </a>
               </li>
               <li>

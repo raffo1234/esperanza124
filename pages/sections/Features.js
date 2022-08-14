@@ -1,13 +1,96 @@
 import React from "react";
 import Container from "components/Container";
+import Image from "next/image";
 import Subtitle from "components/Subtitle";
+import tipoa from "public/images/tipo-a.png";
+import tipob from "public/images/tipo-b.png";
+import bed from "public/icons/bed.svg";
+import measure from "public/icons/measure.svg";
+import map from "public/icons/map.svg";
 
 export default function Features() {
   return (
-    <div className="py-16 bg-beige">
+    <div id="tipologia" className="py-16 bg-beige">
       <Container>
-        <Subtitle>Características</Subtitle>
-        features
+        <Subtitle>Tipología</Subtitle>
+        <div className="items-center space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
+          <div className="flex-1">
+            <div className="flex items-center w-full mb-2">
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
+                <Image alt="" width="36" height="36" src={bed} />
+                <div>
+                  <span>Área total</span>
+                  <div>
+                    76 m<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
+                <Image alt="" width="30" height="30" src={measure} />
+                <div>
+                  <span>Dormitorios</span>
+                  <div>3</div>
+                </div>
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
+                <Image alt="" width="48" height="48" src={map} />
+                <div>
+                  <span>Baños</span>
+                  <div>2</div>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={tipoa}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="flex-1">
+            <div className="flex items-center w-full mb-2">
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
+                <Image alt="" width="36" height="36" src={bed} />
+                <div>
+                  <span>Área total</span>
+                  <div>
+                    76 m<sup>2</sup>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
+                <Image alt="" width="30" height="30" src={measure} />
+                <div>
+                  <span>Dormitorios</span>
+                  <div>3</div>
+                </div>
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
+                <Image alt="" width="48" height="48" src={map} />
+                <div>
+                  <span>Baños</span>
+                  <div>2</div>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={tipob}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+        </div>
       </Container>
     </div>
   );

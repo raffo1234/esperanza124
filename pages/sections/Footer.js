@@ -3,7 +3,7 @@ import Container from "components/Container";
 
 export default function Footer() {
   return (
-    <div className="py-4">
+    <div className="py-8">
       <Container>
         <div clasName="">
           <p className="text-xs text-right">
