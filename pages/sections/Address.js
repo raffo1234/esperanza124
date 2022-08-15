@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import location from "public/icons/location.svg";
+import arrowRight from "public/icons/arrow-right.svg";
 import mapImage from "public/images/map.png";
 import Container from "components/Container";
 import Subtitle from "components/Subtitle";
@@ -30,9 +31,10 @@ export default function Address() {
               href="https://goo.gl/maps/j5aTBkzth9z4buJZA"
               target="_blank"
               rel="noreferrer"
-              className="absolute top-0 right-0 block p-2 lg:p-6 bg-warning"
+              className="absolute top-0 right-0 flex items-center p-2 text-xs lg:text-base lg:p-6 bg-warning"
             >
-              Ver ubicación en Google Maps
+              <div className="mr-3">Ver ubicación en Google Maps</div>
+              <Image alt="" width="20" height="20" src={arrowRight} />
             </a>
           </div>
         </div>
