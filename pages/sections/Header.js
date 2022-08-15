@@ -31,7 +31,7 @@ export default function Header() {
                   Ubicación
                 </a>
               </li>
-              <li className="ml-6">
+              <li className="flex-shrink-0 ml-6">
                 <a
                   href="https://wa.me/51997258592"
                   className="flex items-center justify-center p-2 rounded bg-whatsapp"
