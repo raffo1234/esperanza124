@@ -13,7 +13,7 @@ export default function Gallery() {
         background: "linear-gradient(128.51deg, #FFFFFF 32.94%, #EBF4FD 89.6%)",
       }}
       id="galeria"
-      className="py-20"
+      className="pt-20 pb-3 lg:pb-6"
     >
       <Container>
         <Subtitle>Galeria</Subtitle>

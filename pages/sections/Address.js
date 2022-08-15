@@ -9,7 +9,7 @@ export default function Address() {
   return (
     <section
       id="ubicacion"
-      className="py-20"
+      className="pt-20 pb-3 lg:pb-6"
       style={{
         background: "linear-gradient(128.51deg, #dbd5ed 32.94%, #f3e7ea 89.6%)",
       }}
@@ -23,14 +23,14 @@ export default function Address() {
             </div>
             <p>Pasaje La Esperanza 124, Pio Pata, El Tambo</p>
           </h3>
-          <div className="w-full h-px my-6 bg-warning"></div>
+          <div className="w-full h-px my-2 lg:my-6 bg-warning"></div>
           <div className="relative">
             <Image alt="" src={mapImage} />
             <a
               href="https://goo.gl/maps/j5aTBkzth9z4buJZA"
               target="_blank"
               rel="noreferrer"
-              className="absolute top-0 right-0 block p-6 bg-warning"
+              className="absolute top-0 right-0 block p-2 lg:p-6 bg-warning"
             >
               Ver ubicación en Google Maps
             </a>

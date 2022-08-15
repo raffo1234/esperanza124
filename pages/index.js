@@ -11,7 +11,7 @@ const sections = [Hero, Features, Gallery, Address, Footer];
 
 export default function Home() {
   return (
-    <div className="text-xs bg-capri lg:text-base">
+    <div className="text-sm bg-capri lg:text-base">
       <Head>
         <title>Esperanza 124</title>
         <meta name="description" content="Esperanza 124" />

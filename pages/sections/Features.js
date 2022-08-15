@@ -10,15 +10,17 @@ import shower from "public/icons/shower.svg";
 
 export default function Features() {
   return (
-    <div id="tipologia" className="py-20 bg-beige">
+    <section id="tipologia" className="pt-20 pb-3 lg:pb-6 bg-beige">
       <Container>
         <Subtitle>Tipología</Subtitle>
-        <div className="items-center space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
-          <div className="flex-1">
-            <div className="items-center w-full mb-2 sm:flex">
-              <div className="p-3 text-4xl font-bold bg-success">A</div>
-              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
-                <div className="flex-shrink-0">
+        <div className="items-start space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
+          <div className="flex-1 bg-neutral-200">
+            <div className="items-center w-full mb-2 border-b border-black sm:flex">
+              <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
+                A
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex-shrink-0 w-10">
                   <Image alt="" width="30" height="30" src={area} />
                 </div>
                 <div>
@@ -28,8 +30,8 @@ export default function Features() {
                   </strong>
                 </div>
               </div>
-              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
-                <div className="flex-shrink-0">
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex-shrink-0 w-10">
                   <Image alt="" width="42" height="42" src={bed} />
                 </div>
                 <div>
@@ -37,8 +39,8 @@ export default function Features() {
                   <strong className="text-lg">3</strong>
                 </div>
               </div>
-              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
-                <div className="flex-shrink-0">
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex-shrink-0 w-10">
                   <Image alt="" width="32" height="32" src={shower} />
                 </div>
                 <div>
@@ -59,11 +61,13 @@ export default function Features() {
               />
             </div>
           </div>
-          <div className="flex-1">
-            <div className="items-center w-full mb-2 sm:flex">
-              <div className="p-3 text-4xl font-bold bg-success">B</div>
-              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 bg-neutral-200 text-blue-dark">
-                <div className="flex-shrink-0">
+          <div className="flex-1 bg-neutral-200">
+            <div className="items-center w-full mb-2 border-b border-black sm:flex">
+              <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
+                B
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4">
+                <div className="flex-shrink-0 w-10">
                   <Image alt="" width="30" height="30" src={area} />
                 </div>
                 <div>
@@ -73,8 +77,8 @@ export default function Features() {
                   </strong>
                 </div>
               </div>
-              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
-                <div className="flex-shrink-0">
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex-shrink-0 w-10">
                   <Image alt="" width="42" height="42" src={bed} />
                 </div>
                 <div>
@@ -82,8 +86,8 @@ export default function Features() {
                   <strong className="text-lg">3</strong>
                 </div>
               </div>
-              <div className="flex items-center flex-1 p-3 space-x-6 lg:p-4 bg-neutral-200 text-blue-dark">
-                <div className="flex-shrink-0">
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex-shrink-0 w-10">
                   <Image alt="" width="32" height="32" src={shower} />
                 </div>
                 <div>
@@ -106,6 +110,6 @@ export default function Features() {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 }

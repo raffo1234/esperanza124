@@ -22,19 +22,23 @@ export default function Hero() {
         objectPosition="center"
         quality={100}
       />
-      <p className="absolute z-20 font-serif font-bold text-right text-white -translate-y-1/2 text-8xl right-10 top-1/2">
+      <p className="absolute z-20 font-serif text-4xl font-bold text-right text-white -translate-y-1/2 lg:text-8xl right-4 lg:right-10 top-1/2">
         Entrega <br /> Inmediata
       </p>
       <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
         <div className="flex items-center self-stretch p-3 space-x-4 lg:p-6 bg-warning text-blue-dark">
-          <Image alt="" width="48" height="48" src={bed} />
+          <div className="flex-shrink-0 w-12">
+            <Image alt="" width="48" height="48" src={bed} />
+          </div>
           <div>
             <span>3 Dormitorios</span>
             <div>2 baños</div>
           </div>
         </div>
-        <div className="flex items-center self-stretch p-3 space-x-6 lg:p-6 bg-success text-blue-dark">
-          <Image alt="" width="40" height="40" src={area} />
+        <div className="flex items-center self-stretch p-3 space-x-4 lg:p-6 bg-success text-blue-dark">
+          <div className="flex-shrink-0 w-12">
+            <Image alt="" width="40" height="40" src={area} />
+          </div>
           <div>
             <span>Desde</span>
             <div>
@@ -42,8 +46,10 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex items-center self-stretch p-3 space-x-6 lg:p-6 bg-info text-blue-dark">
-          <Image alt="" width="42" height="42" src={location} />
+        <div className="flex items-center self-stretch p-3 space-x-4 lg:p-6 bg-info text-blue-dark">
+          <div className="flex-shrink-0 w-12">
+            <Image alt="" width="42" height="42" src={location} />
+          </div>
           <div>
             <span>Dirección</span>
             <div>Pje. La Esperanza 124, El Tambo</div>
