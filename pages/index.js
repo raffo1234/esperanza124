@@ -14,8 +14,7 @@ export default function Home() {
     <div className="text-sm bg-capri lg:text-base">
       <Head>
         <title>Esperanza 124</title>
-        <meta name="description" content="Esperanza 124" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Proyecto | Esperanza 124" />
       </Head>
       <Header />
       {sections.map((Section, index) => (
