@@ -2,9 +2,11 @@ import React from "react";
 import Container from "components/Container";
 import Image from "next/image";
 import Subtitle from "components/Subtitle";
-import tv from "public/images/tv.jpeg";
-import tv2 from "public/images/tv2.png";
-import living from "public/images/living.png";
+import image2 from "public/images/image_02.jpeg";
+import image3 from "public/images/image_03.jpeg";
+import image4 from "public/images/image_04.jpeg";
+import image5 from "public/images/image_05.jpeg";
+import image6 from "public/images/image_06.jpeg";
 
 export default function Gallery() {
   return (
@@ -18,10 +20,23 @@ export default function Gallery() {
       <Container>
         <Subtitle>Galeria</Subtitle>
         <div className="space-y-5">
+          <div className="flex items-center space-x-5">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={image2}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={living}
+                src={image6}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -32,7 +47,7 @@ export default function Gallery() {
             </div>
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={tv}
+                src={image3}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -45,7 +60,7 @@ export default function Gallery() {
           <div className="flex items-center space-x-5">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={tv2}
+                src={image4}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -58,7 +73,7 @@ export default function Gallery() {
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={tv}
+                src={image2}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
@@ -69,7 +84,7 @@ export default function Gallery() {
             </div>
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
-                src={living}
+                src={image5}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"

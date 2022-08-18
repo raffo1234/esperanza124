@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import home from "public/images/home.jpeg";
+import image1 from "public/images/image_01.jpeg";
 import location from "public/icons/location.svg";
 import bed from "public/icons/bed.svg";
 import area from "public/icons/area.svg";
@@ -14,7 +14,7 @@ export default function Hero() {
       className="relative w-full h-screen overflow-hidden"
     >
       <Image
-        src={home}
+        src={image1}
         className="relative z-10"
         alt="Esperanza"
         layout="fill"
@@ -22,7 +22,7 @@ export default function Hero() {
         objectPosition="center"
         quality={100}
       />
-      <p className="absolute z-20 font-serif text-4xl font-bold text-right text-white -translate-y-1/2 lg:text-8xl right-4 lg:right-10 top-1/2">
+      <p className="absolute z-20 font-serif text-4xl font-bold text-right text-white top-24 lg:text-8xl left-4 lg:left-10">
         Entrega <br /> Inmediata
       </p>
       <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">

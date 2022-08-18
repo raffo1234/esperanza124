@@ -55,7 +55,7 @@ export default function Features() {
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 objectPosition="center"
                 quality={100}
               />
@@ -102,7 +102,7 @@ export default function Features() {
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 objectPosition="center"
                 quality={100}
               />
