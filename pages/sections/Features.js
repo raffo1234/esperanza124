@@ -26,7 +26,7 @@ export default function Features() {
                 <div>
                   <div className="text-sm">Área total</div>
                   <strong className="text-lg">
-                    76 m<sup>2</sup>
+                    72.4 m<sup>2</sup>
                   </strong>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function Features() {
                 <div>
                   <div className="text-sm">Área total</div>
                   <strong className="text-lg">
-                    76 m<sup>2</sup>
+                    75.2 m<sup>2</sup>
                   </strong>
                 </div>
               </div>

@@ -42,7 +42,7 @@ export default function Hero() {
           <div>
             <span>Desde</span>
             <div>
-              76m<sup>2</sup>
+              72,4m<sup>2</sup>
             </div>
           </div>
         </div>
@@ -52,7 +52,10 @@ export default function Hero() {
           </div>
           <div>
             <span>Dirección</span>
-            <div>Pje. La Esperanza 124, El Tambo</div>
+            <div>
+              Pje. La Esperanza 124, Pio Pata <br />
+              El Tambo
+            </div>
           </div>
         </div>
       </div>
