@@ -20,8 +20,8 @@ export default function Features() {
                 A
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex-shrink-0 w-10">
-                  <Image alt="" width="30" height="30" src={area} />
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
+                  <Image alt="" width="32" height="32" src={area} />
                 </div>
                 <div>
                   <div className="text-sm">Área total</div>
@@ -31,7 +31,7 @@ export default function Features() {
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex-shrink-0 w-10">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
                   <Image alt="" width="42" height="42" src={bed} />
                 </div>
                 <div>
@@ -40,7 +40,7 @@ export default function Features() {
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex-shrink-0 w-10">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
                   <Image alt="" width="32" height="32" src={shower} />
                 </div>
                 <div>
@@ -67,8 +67,8 @@ export default function Features() {
                 B
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4">
-                <div className="flex-shrink-0 w-10">
-                  <Image alt="" width="30" height="30" src={area} />
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
+                  <Image alt="" width="32" height="32" src={area} />
                 </div>
                 <div>
                   <div className="text-sm">Área total</div>
@@ -78,7 +78,7 @@ export default function Features() {
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex-shrink-0 w-10">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
                   <Image alt="" width="42" height="42" src={bed} />
                 </div>
                 <div>
@@ -87,7 +87,7 @@ export default function Features() {
                 </div>
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex-shrink-0 w-10">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
                   <Image alt="" width="32" height="32" src={shower} />
                 </div>
                 <div>
