@@ -1622,11 +1622,6 @@ react-is@^16.13.1:
   resolved "https://registry.able.co/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-scroll-wheel-handler@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.able.co/react-scroll-wheel-handler/-/react-scroll-wheel-handler-2.2.0.tgz#8119f6befe374d70764511212fd91672cd5cfd7f"
-  integrity sha512-x1OqSyF5qzCEvX2C3Rgfm6BoOMwuV4JJezBZEkRkaMe0cnb9xrnsoYtwrKIJ+J1zRy3dZESoHdoAtepzW+xtKA==
-
 react@18.2.0:
   version "18.2.0"
   resolved "https://registry.able.co/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
