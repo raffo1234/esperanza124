@@ -22,7 +22,7 @@ export default function Hero() {
         objectPosition="center"
         quality={100}
       />
-      <p className="absolute z-20 font-serif text-4xl font-bold text-right text-white top-24 lg:text-8xl left-4 lg:left-10">
+      <p className="absolute z-20 font-serif text-6xl font-bold text-right -translate-y-1/2 sm:text-white lg: top-1/2 lg:text-8xl left-4 lg:left-10">
         Entrega <br /> Inmediata
       </p>
       <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
