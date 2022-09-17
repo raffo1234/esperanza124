@@ -15,7 +15,7 @@ export default function Features() {
         <Subtitle>Tipología</Subtitle>
         <div className="items-start space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
           <div className="flex-1 bg-neutral-200">
-            <div className="items-center w-full mb-2 border-b border-black sm:flex">
+            <div className="items-center w-full mb-4 border-b-4 border-success sm:flex">
               <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
                 A
               </div>
@@ -62,7 +62,7 @@ export default function Features() {
             </div>
           </div>
           <div className="flex-1 bg-neutral-200">
-            <div className="items-center w-full mb-2 border-b border-black sm:flex">
+            <div className="items-center w-full mb-4 border-b-4 border-success sm:flex">
               <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
                 B
               </div>
