@@ -19,53 +19,6 @@ export default function Features() {
               <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
                 A
               </div>
-              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex items-center justify-center flex-shrink-0 w-10">
-                  <Image alt="" width="32" height="32" src={area} />
-                </div>
-                <div>
-                  <div className="text-sm">Área total</div>
-                  <strong className="text-lg">
-                    72.4 m<sup>2</sup>
-                  </strong>
-                </div>
-              </div>
-              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex items-center justify-center flex-shrink-0 w-10">
-                  <Image alt="" width="42" height="42" src={bed} />
-                </div>
-                <div>
-                  <div className="text-sm">Dormitorios</div>
-                  <strong className="text-lg">3</strong>
-                </div>
-              </div>
-              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
-                <div className="flex items-center justify-center flex-shrink-0 w-10">
-                  <Image alt="" width="32" height="32" src={shower} />
-                </div>
-                <div>
-                  <div className="text-sm">Baños</div>
-                  <strong className="text-lg">2</strong>
-                </div>
-              </div>
-            </div>
-            <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
-              <Image
-                src={tipoa}
-                className="relative z-10"
-                alt="Esperanza"
-                layout="fill"
-                objectFit="contain"
-                objectPosition="center"
-                quality={100}
-              />
-            </div>
-          </div>
-          <div className="flex-1 bg-neutral-200">
-            <div className="items-center w-full mb-4 border-b-4 border-success sm:flex">
-              <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
-                B
-              </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4">
                 <div className="flex items-center justify-center flex-shrink-0 w-10">
                   <Image alt="" width="32" height="32" src={area} />
@@ -73,7 +26,7 @@ export default function Features() {
                 <div>
                   <div className="text-sm">Área total</div>
                   <strong className="text-lg">
-                    75.2 m<sup>2</sup>
+                    81.77 m<sup>2</sup>
                   </strong>
                 </div>
               </div>
@@ -99,6 +52,53 @@ export default function Features() {
             <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
               <Image
                 src={tipob}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="contain"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="flex-1 bg-neutral-200">
+            <div className="items-center w-full mb-4 border-b-4 border-success sm:flex">
+              <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
+                B
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
+                  <Image alt="" width="32" height="32" src={area} />
+                </div>
+                <div>
+                  <div className="text-sm">Área total</div>
+                  <strong className="text-lg">
+                    74.71 m<sup>2</sup>
+                  </strong>
+                </div>
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
+                  <Image alt="" width="42" height="42" src={bed} />
+                </div>
+                <div>
+                  <div className="text-sm">Dormitorios</div>
+                  <strong className="text-lg">3</strong>
+                </div>
+              </div>
+              <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
+                <div className="flex items-center justify-center flex-shrink-0 w-10">
+                  <Image alt="" width="32" height="32" src={shower} />
+                </div>
+                <div>
+                  <div className="text-sm">Baños</div>
+                  <strong className="text-lg">2</strong>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={tipoa}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"

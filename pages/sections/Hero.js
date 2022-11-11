@@ -42,7 +42,7 @@ export default function Hero() {
           <div>
             <span>Desde</span>
             <div>
-              72,4m<sup>2</sup>
+              74m<sup>2</sup>
             </div>
           </div>
         </div>
