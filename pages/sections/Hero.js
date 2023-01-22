@@ -22,9 +22,11 @@ export default function Hero() {
         objectPosition="center"
         quality={100}
       />
-      <p className="absolute z-20 font-serif text-6xl font-bold text-right -translate-y-1/2 sm:text-info lg: top-1/2 lg:text-8xl left-4 lg:left-10">
-        Entrega <br /> Inmediata
-      </p>
+      <div className="absolute z-20 px-16 py-6 -translate-y-1/2 bg-warning top-1/2 left-4">
+        <p className="font-serif text-5xl font-bold text-right lg:text-8xl lg:left-10">
+          Entrega <br /> Inmediata
+        </p>
+      </div>
       <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
         <div className="flex items-center self-stretch p-3 space-x-4 lg:p-6 bg-warning text-blue-dark">
           <div className="flex-shrink-0 w-12">
