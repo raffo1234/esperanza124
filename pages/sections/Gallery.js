@@ -7,6 +7,13 @@ import image3 from "public/images/image_03.jpeg";
 import image4 from "public/images/image_04.jpeg";
 import image5 from "public/images/image_05.jpeg";
 import image6 from "public/images/image_06.jpeg";
+import recepcion from "public/images/recepcion.jpeg";
+import kitchen from "public/images/kitchen.jpg";
+import livingRoom from "public/images/living-room.jpg";
+import bathroom from "public/images/bathroom.jpg";
+import bathroom2 from "public/images/bathroom2.jpg";
+import front from "public/images/front.jpeg";
+import stairs from "public/images/stairs.jpg";
 
 export default function Gallery() {
   return (
@@ -85,6 +92,93 @@ export default function Gallery() {
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
               <Image
                 src={image5}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="flex items-center space-x-5">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={recepcion}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={kitchen}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={livingRoom}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="flex items-center space-x-5">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={front}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={bathroom}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={bathroom2}
+                className="relative z-10"
+                alt="Esperanza"
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                quality={100}
+              />
+            </div>
+          </div>
+          <div className="flex items-center space-x-5">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+              <Image
+                src={stairs}
                 className="relative z-10"
                 alt="Esperanza"
                 layout="fill"
