@@ -2,12 +2,15 @@ import React from "react";
 import Container from "components/Container";
 
 export default function Footer() {
+  const now = new Date();
+  const currentYear = now.getFullYear();
+
   return (
     <div className="py-8">
       <Container>
         <div clasName="">
           <p className="text-xs text-right">
-            © 2022 Esperanza124. All rights reserved.
+            © {currentYear} Esperanza124. All rights reserved.
           </p>
         </div>
       </Container>
