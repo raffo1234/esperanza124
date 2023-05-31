@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import whatsapp from "public/icons/whatsapp.svg";
+import PdfIcon from "public/icons/pdf.svg";
 import Container from "components/Container";
 
 export default function Header() {
@@ -39,6 +40,19 @@ export default function Header() {
                   rel="noreferrer"
                 >
                   <Image alt="" width="24" height="24" src={whatsapp} />
+                </a>
+              </li>
+              <li className="flex-shrink-0 ml-6">
+                <a
+                  download
+                  alt="Esperanza124 Brochure"
+                  href="/pdfs/esperanza124.pdf"
+                  className="flex items-center justify-center p-2 space-x-2 text-white rounded bg-info"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image alt="" width="24" height="24" src={PdfIcon} />{" "}
+                  <span>Brochure</span>
                 </a>
               </li>
             </ul>
