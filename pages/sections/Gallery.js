@@ -2,18 +2,18 @@ import React from "react";
 import Container from "components/Container";
 import Image from "next/image";
 import Subtitle from "components/Subtitle";
-import image2 from "public/images/image_02.jpeg";
-import image3 from "public/images/image_03.jpeg";
+import image2 from "public/images/5.jpg";
+import image3 from "public/images/6.jpg";
 import image4 from "public/images/image_04.jpeg";
 import image5 from "public/images/image_05.jpeg";
 import image6 from "public/images/image_06.jpeg";
 import recepcion from "public/images/recepcion.jpeg";
-import kitchen from "public/images/kitchen.jpg";
-import livingRoom from "public/images/living-room.jpg";
-import bathroom from "public/images/bathroom.jpg";
-import bathroom2 from "public/images/bathroom2.jpg";
+import kitchen from "public/images/1.jpg";
+import livingRoom from "public/images/2.jpg";
+import bathroom from "public/images/3.jpg";
+import bathroom2 from "public/images/4.jpg";
 import front from "public/images/front.jpeg";
-import stairs from "public/images/stairs.jpg";
+import stairs from "public/images/1.jpg";
 
 export default function Gallery() {
   return (
