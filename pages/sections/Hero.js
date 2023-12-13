@@ -17,6 +17,7 @@ export default function Hero() {
         width="100%"
         height="100%"
         autoPlay={true}
+        loop={true}
         muted={true}
         controls={false}
         className="hidden lg:block"
@@ -27,6 +28,7 @@ export default function Hero() {
         height="100%"
         autoPlay={true}
         muted={true}
+        loop={true}
         controls={false}
         className="block lg:hidden"
       />

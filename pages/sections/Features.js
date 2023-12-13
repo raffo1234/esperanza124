@@ -16,7 +16,7 @@ export default function Features() {
         <div className="items-start space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
           <div className="flex-1 bg-neutral-200">
             <div className="items-center w-full mb-4 border-b-4 border-success sm:flex">
-              <div className="flex items-center self-stretch p-3 text-4xl font-bold bg-success">
+              <div className="flex items-center self-stretch px-4 text-4xl font-bold bg-success">
                 B
               </div>
               <div className="flex items-center flex-1 p-3 space-x-4 lg:p-4 text-blue-dark">
