@@ -30,9 +30,6 @@ export default function Address() {
               alt="Esperanza 124"
               title="Esperanza 124"
               src={mapImage}
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center"
               quality={100}
             />
             <a
