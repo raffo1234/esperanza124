@@ -19,6 +19,16 @@ export default function Hero() {
         autoPlay={true}
         muted={true}
         controls={false}
+        className="hidden lg:block"
+      />
+      <video
+        src="videos/intro_portrait.mp4"
+        width="100%"
+        height="100%"
+        autoPlay={true}
+        muted={true}
+        controls={false}
+        className="block lg:hidden"
       />
       <div className="absolute z-20 px-16 py-6 -translate-y-1/2 bg-warning top-1/2 left-4">
         <p className="font-serif text-5xl font-bold text-right lg:text-8xl lg:left-10">
