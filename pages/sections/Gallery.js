@@ -33,6 +33,7 @@ export default function Gallery() {
                 src={image2}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -46,6 +47,7 @@ export default function Gallery() {
                 src={image6}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -57,6 +59,7 @@ export default function Gallery() {
                 src={image3}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -70,6 +73,7 @@ export default function Gallery() {
                 src={image4}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -83,6 +87,7 @@ export default function Gallery() {
                 src={image2}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -94,6 +99,7 @@ export default function Gallery() {
                 src={image5}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -107,6 +113,7 @@ export default function Gallery() {
                 src={recepcion}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -120,6 +127,7 @@ export default function Gallery() {
                 src={kitchen}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -131,6 +139,7 @@ export default function Gallery() {
                 src={livingRoom}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -144,6 +153,7 @@ export default function Gallery() {
                 src={front}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -157,6 +167,7 @@ export default function Gallery() {
                 src={bathroom}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -168,6 +179,7 @@ export default function Gallery() {
                 src={bathroom2}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
@@ -181,6 +193,7 @@ export default function Gallery() {
                 src={stairs}
                 className="relative z-10"
                 alt="Esperanza"
+                title="Esperanza 124"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"

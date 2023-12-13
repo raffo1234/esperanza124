@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "public/images/image_01.jpeg";
 import location from "public/icons/location.svg";
 import bed from "public/icons/bed.svg";
 import area from "public/icons/area.svg";
@@ -13,14 +12,13 @@ export default function Hero() {
       }}
       className="relative w-full h-screen overflow-hidden"
     >
-      <Image
-        src={image1}
-        className="relative z-10"
-        alt="Esperanza"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
-        quality={100}
+      <video
+        src="videos/intro.mov"
+        width="100%"
+        height="100%"
+        autoPlay={true}
+        muted={true}
+        controls={false}
       />
       <div className="absolute z-20 px-16 py-6 -translate-y-1/2 bg-warning top-1/2 left-4">
         <p className="font-serif text-5xl font-bold text-right lg:text-8xl lg:left-10">

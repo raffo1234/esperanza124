@@ -26,7 +26,15 @@ export default function Address() {
           </h3>
           <div className="w-full h-px my-2 lg:my-6 bg-warning"></div>
           <div className="relative">
-            <Image alt="" src={mapImage} />
+            <Image
+              alt="Esperanza 124"
+              title="Esperanza 124"
+              src={mapImage}
+              layout="fill"
+              objectFit="cover"
+              objectPosition="center"
+              quality={100}
+            />
             <a
               href="https://goo.gl/maps/j5aTBkzth9z4buJZA"
               target="_blank"
