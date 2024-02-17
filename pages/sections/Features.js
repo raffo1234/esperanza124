@@ -10,11 +10,11 @@ import shower from "public/icons/shower.svg";
 
 export default function Features() {
   return (
-    <section id="tipologia" className="pt-20 pb-3 lg:pb-6 bg-beige">
+    <section id="tipologia" className="pt-40 pb-3 lg:pb-6 ">
       <Container>
         <Subtitle>Tipología</Subtitle>
         <div className="items-start space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
-          <div className="flex-1 bg-neutral-200">
+          <div className="flex-1 ">
             <div className="items-center w-full mb-4 border-b-4 border-success sm:flex">
               <div className="flex items-center self-stretch px-4 text-4xl font-bold bg-success">
                 B

@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Melodrama";
-  src: url("fonts/SplineSans-Bold.woff2") format("woff2");
+  src: url("fonts/Melodrama-Bold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -41,6 +41,22 @@
 @font-face {
   font-family: "Melodrama";
   src: url("fonts/Melodrama-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url("fonts/Bebas-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url("fonts/Bebas-Regular.otf") format("otf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

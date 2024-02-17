@@ -17,18 +17,12 @@ import stairs from "public/images/1.jpg";
 
 export default function Gallery() {
   return (
-    <div
-      style={{
-        background: "linear-gradient(128.51deg, #FFFFFF 32.94%, #EBF4FD 89.6%)",
-      }}
-      id="galeria"
-      className="pt-20 pb-3 lg:pb-6"
-    >
+    <div id="galeria" className="pt-40 pb-3 lg:pb-6">
       <Container>
         <Subtitle>Galeria</Subtitle>
         <div className="space-y-5">
           <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={image2}
                 className="relative z-10"
@@ -42,7 +36,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={image6}
                 className="relative z-10"
@@ -54,7 +48,7 @@ export default function Gallery() {
                 quality={100}
               />
             </div>
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={image3}
                 className="relative z-10"
@@ -68,7 +62,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={image4}
                 className="relative z-10"
@@ -82,7 +76,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={image2}
                 className="relative z-10"
@@ -94,7 +88,7 @@ export default function Gallery() {
                 quality={100}
               />
             </div>
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={image5}
                 className="relative z-10"
@@ -108,7 +102,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={recepcion}
                 className="relative z-10"
@@ -122,7 +116,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={kitchen}
                 className="relative z-10"
@@ -134,7 +128,7 @@ export default function Gallery() {
                 quality={100}
               />
             </div>
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={livingRoom}
                 className="relative z-10"
@@ -148,7 +142,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={front}
                 className="relative z-10"
@@ -162,7 +156,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={bathroom}
                 className="relative z-10"
@@ -174,7 +168,7 @@ export default function Gallery() {
                 quality={100}
               />
             </div>
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={bathroom2}
                 className="relative z-10"
@@ -188,7 +182,7 @@ export default function Gallery() {
             </div>
           </div>
           <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={stairs}
                 className="relative z-10"

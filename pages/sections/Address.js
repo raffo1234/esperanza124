@@ -8,13 +8,7 @@ import Subtitle from "components/Subtitle";
 
 export default function Address() {
   return (
-    <section
-      id="ubicacion"
-      className="pt-20 pb-3 lg:pb-6"
-      style={{
-        background: "linear-gradient(128.51deg, #dbd5ed 32.94%, #f3e7ea 89.6%)",
-      }}
-    >
+    <section id="ubicacion" className="pt-40 pb-3 lg:pb-6">
       <Container>
         <Subtitle>Encuéntranos</Subtitle>
         <div className="p-3 bg-white rounded lg:p-6">
@@ -36,10 +30,15 @@ export default function Address() {
               href="https://goo.gl/maps/j5aTBkzth9z4buJZA"
               target="_blank"
               rel="noreferrer"
-              className="absolute top-0 right-0 flex items-center p-2 text-xs lg:text-base lg:p-6 bg-warning"
+              className="absolute top-0 right-0 flex items-center text-xs lg:text-base bg-warning "
             >
-              <div className="mr-3">Ver ubicación en Google Maps</div>
-              <Image alt="" width="20" height="20" src={arrowRight} />
+              <div className="p-2 transition duration-300 group lg:p-6">
+                <div className="flex items-center">
+                  <div className="mr-3">Ver ubicación en Google Maps</div>
+                  <Image alt="" width="20" height="20" src={arrowRight} />
+                </div>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
+              </div>
             </a>
           </div>
         </div>

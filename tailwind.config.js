@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["SplineSans", "sans-serif"],
-        serif: ["Melodrama", "sans-serif"],
+        serif: ["Bebas", "sans-serif"],
       },
       colors: {
         capri: "#f9ece5",
@@ -35,8 +35,10 @@ module.exports = {
         success: "#00cc9f",
         info: "#48a1e7",
         warning: "#fdc449",
+        cream: "#ebe5dd",
         danger: "#ff5570",
         whatsapp: "#24d366",
+        brown: "#4F3829",
       },
     },
   },
