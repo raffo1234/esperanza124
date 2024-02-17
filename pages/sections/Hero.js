@@ -64,7 +64,7 @@ export default function Hero() {
               <span>Dirección</span>
               <div>
                 Pje. La Esperanza 124, Pio Pata <br />
-                El Tambo
+                El Tambo, Huancayo
               </div>
             </div>
           </div>
