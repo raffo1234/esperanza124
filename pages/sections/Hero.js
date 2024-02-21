@@ -31,7 +31,7 @@ export default function Hero() {
           />
         </div>
         <div className="absolute z-20 px-20 py-10 -translate-y-1/2 bg-warning top-1/2 left-4">
-          <p className="text-4xl text-right lg:text-7xl lg:left-10">
+          <p className="font-serif text-4xl text-right lg:text-7xl lg:left-10">
             Entrega <br /> Inmediata
           </p>
         </div>

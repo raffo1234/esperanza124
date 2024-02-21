@@ -41,7 +41,7 @@ export default function Header() {
             </ul>
             <h1>
               <a href="./" title="Esperanza 124" alt="Esperanza 124">
-                <span className="text-2xl font-bold lg:text-4xl ">
+                <span className="font-serif text-2xl font-bold lg:text-4xl">
                   Esperanza
                 </span>{" "}
                 <span className="text-success">124</span>

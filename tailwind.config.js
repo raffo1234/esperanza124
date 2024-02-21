@@ -16,8 +16,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["SplineSans", "sans-serif"],
-        serif: ["Bebas", "sans-serif"],
+        sans: ["roboto", "sans-serif"],
+        serif: ["italiana", "sans-serif"],
       },
       colors: {
         capri: "#f9ece5",
