@@ -22,7 +22,7 @@ export default function Gallery() {
         <Subtitle>Galeria</Subtitle>
         <div className="space-y-5">
           <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg ">
               <Image
                 src={image2}
                 className="relative z-10"

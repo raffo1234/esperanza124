@@ -16,7 +16,7 @@ export default function Address() {
             <div className="px-3 py-2 rounded bg-warning">
               <Image alt="" width="32" height="32" src={location} />
             </div>
-            <p>Pasaje La Esperanza 124, Pio Pata, El Tambo</p>
+            <p>Pasaje La Esperanza 124, Pio Pata, El Tambo, Huancayo</p>
           </h3>
           <div className="w-full h-px my-2 lg:my-6 bg-warning"></div>
           <div className="relative">
