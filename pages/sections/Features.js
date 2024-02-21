@@ -7,6 +7,7 @@ import tipob from "public/images/tipo-b.png";
 import bed from "public/icons/bed.svg";
 import area from "public/icons/area.svg";
 import shower from "public/icons/shower.svg";
+import { Fade } from "react-reveal";
 
 export default function Features() {
   return (
@@ -49,17 +50,19 @@ export default function Features() {
                 </div>
               </div>
             </div>
-            <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
-              <Image
-                src={tipoa}
-                className="relative z-10"
-                alt="Esperanza"
-                layout="fill"
-                objectFit="contain"
-                objectPosition="center"
-                quality={100}
-              />
-            </div>
+            <Fade>
+              <div className="relative h-[350px] lg:h-[500px] overflow-hidden">
+                <Image
+                  src={tipoa}
+                  className="relative z-10"
+                  alt="Esperanza"
+                  layout="fill"
+                  objectFit="contain"
+                  objectPosition="center"
+                  quality={100}
+                />
+              </div>
+            </Fade>
           </div>
         </div>
       </Container>

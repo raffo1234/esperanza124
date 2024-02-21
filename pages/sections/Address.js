@@ -5,6 +5,7 @@ import arrowRight from "public/icons/arrow-right.svg";
 import mapImage from "public/images/map.png";
 import Container from "components/Container";
 import Subtitle from "components/Subtitle";
+import { Fade } from "react-reveal";
 
 export default function Address() {
   return (
@@ -19,28 +20,30 @@ export default function Address() {
             <p>Pasaje La Esperanza 124, Pio Pata, El Tambo, Huancayo</p>
           </h3>
           <div className="w-full h-1 my-2 lg:my-6 bg-warning"></div>
-          <div className="relative">
-            <Image
-              alt="Esperanza 124"
-              title="Esperanza 124"
-              src={mapImage}
-              quality={100}
-            />
-            <a
-              href="https://goo.gl/maps/j5aTBkzth9z4buJZA"
-              target="_blank"
-              rel="noreferrer"
-              className="absolute top-0 right-0 flex items-center text-xs lg:text-base bg-warning "
-            >
-              <div className="p-2 transition duration-300 group lg:p-6">
-                <div className="flex items-center">
-                  <div className="mr-3">Ver ubicación en Google Maps</div>
-                  <Image alt="" width="20" height="20" src={arrowRight} />
+          <Fade>
+            <div className="relative">
+              <Image
+                alt="Esperanza 124"
+                title="Esperanza 124"
+                src={mapImage}
+                quality={100}
+              />
+              <a
+                href="https://goo.gl/maps/j5aTBkzth9z4buJZA"
+                target="_blank"
+                rel="noreferrer"
+                className="absolute top-0 right-0 flex items-center text-xs lg:text-base bg-warning "
+              >
+                <div className="p-2 transition duration-300 group lg:p-6">
+                  <div className="flex items-center">
+                    <div className="mr-3">Ver ubicación en Google Maps</div>
+                    <Image alt="" width="20" height="20" src={arrowRight} />
+                  </div>
+                  <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
                 </div>
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
-              </div>
-            </a>
-          </div>
+              </a>
+            </div>
+          </Fade>
         </div>
       </Container>
     </section>
