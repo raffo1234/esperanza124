@@ -104,7 +104,7 @@ export default function Gallery() {
           <div className="flex items-center space-x-5">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
-                src={recepcion}
+                src={image3}
                 className="relative z-10"
                 alt="Esperanza"
                 title="Esperanza 124"
@@ -144,7 +144,7 @@ export default function Gallery() {
           <div className="flex items-center space-x-5">
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
-                src={front}
+                src={stairs}
                 className="relative z-10"
                 alt="Esperanza"
                 title="Esperanza 124"
@@ -171,20 +171,6 @@ export default function Gallery() {
             <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
               <Image
                 src={bathroom2}
-                className="relative z-10"
-                alt="Esperanza"
-                title="Esperanza 124"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
-                quality={100}
-              />
-            </div>
-          </div>
-          <div className="flex items-center space-x-5">
-            <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
-              <Image
-                src={stairs}
                 className="relative z-10"
                 alt="Esperanza"
                 title="Esperanza 124"
