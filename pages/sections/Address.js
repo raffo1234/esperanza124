@@ -18,7 +18,7 @@ export default function Address() {
             </div>
             <p>Pasaje La Esperanza 124, Pio Pata, El Tambo, Huancayo</p>
           </h3>
-          <div className="w-full h-px my-2 lg:my-6 bg-warning"></div>
+          <div className="w-full h-1 my-2 lg:my-6 bg-warning"></div>
           <div className="relative">
             <Image
               alt="Esperanza 124"
