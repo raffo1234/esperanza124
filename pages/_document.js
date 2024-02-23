@@ -27,7 +27,13 @@ export default function Document() {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="Spanish" />
       </Head>
-      <body>
+      <body
+        style={{
+          background: "rgb(255,250,244)",
+          background:
+            "radial-gradient(circle, rgba(255,250,244,1) 0%, rgba(254,242,214,1) 87%, rgba(255,250,244,1) 100%)",
+        }}
+      >
         <Main />
         <NextScript />
       </body>

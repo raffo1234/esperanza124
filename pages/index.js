@@ -25,7 +25,7 @@ export default function Home() {
           site_name: "Esperanza 124",
         }}
       />
-      <div className="text-sm bg-beige lg:text-base">
+      <div className="text-sm lg:text-base">
         <Head>
           <title>Esperanza 124</title>
           <meta name="description" content="Esperanza 124" />
