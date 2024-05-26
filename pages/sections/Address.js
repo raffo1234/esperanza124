@@ -23,8 +23,8 @@ export default function Address() {
           <Fade>
             <div className="relative">
               <Image
-                alt="Esperanza 124"
-                title="Esperanza 124"
+                alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                 src={mapImage}
                 quality={100}
               />

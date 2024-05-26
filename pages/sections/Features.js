@@ -55,7 +55,7 @@ export default function Features() {
                 <Image
                   src={tipoa}
                   className="relative z-10"
-                  alt="Esperanza"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="contain"
                   objectPosition="center"

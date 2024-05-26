@@ -26,8 +26,8 @@ export default function Gallery() {
                 <Image
                   src={image2}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -42,8 +42,8 @@ export default function Gallery() {
                 <Image
                   src={image6}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -54,8 +54,8 @@ export default function Gallery() {
                 <Image
                   src={image3}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -70,8 +70,8 @@ export default function Gallery() {
                 <Image
                   src={image4}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -86,8 +86,8 @@ export default function Gallery() {
                 <Image
                   src={image2}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -98,8 +98,8 @@ export default function Gallery() {
                 <Image
                   src={image5}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -114,8 +114,8 @@ export default function Gallery() {
                 <Image
                   src={image3}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -130,8 +130,8 @@ export default function Gallery() {
                 <Image
                   src={kitchen}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -142,8 +142,8 @@ export default function Gallery() {
                 <Image
                   src={livingRoom}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -158,8 +158,8 @@ export default function Gallery() {
                 <Image
                   src={stairs}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -174,8 +174,8 @@ export default function Gallery() {
                 <Image
                   src={bathroom}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
@@ -186,8 +186,8 @@ export default function Gallery() {
                 <Image
                   src={bathroom2}
                   className="relative z-10"
-                  alt="Esperanza"
-                  title="Esperanza 124"
+                  alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                  title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center"
