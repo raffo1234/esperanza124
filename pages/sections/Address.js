@@ -5,11 +5,12 @@ import arrowRight from "public/icons/arrow-right.svg";
 import mapImage from "public/images/map.png";
 import Container from "components/Container";
 import Subtitle from "components/Subtitle";
+import Section from "components/Section";
 import { Fade } from "react-reveal";
 
 export default function Address() {
   return (
-    <section id="ubicacion" className="pt-40 pb-3 lg:pb-6">
+    <Section id="ubicacion">
       <Container>
         <Subtitle>Encuéntranos</Subtitle>
         <div className="p-3 bg-white rounded lg:p-6">
@@ -46,6 +47,6 @@ export default function Address() {
           </Fade>
         </div>
       </Container>
-    </section>
+    </Section>
   );
 }

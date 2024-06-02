@@ -3,15 +3,15 @@ import Container from "components/Container";
 import Image from "next/image";
 import Subtitle from "components/Subtitle";
 import tipoa from "public/images/tipo-a.png";
-import tipob from "public/images/tipo-b.png";
 import bed from "public/icons/bed.svg";
 import area from "public/icons/area.svg";
 import shower from "public/icons/shower.svg";
 import { Fade } from "react-reveal";
+import Section from "components/Section";
 
 export default function Features() {
   return (
-    <section id="tipologia" className="pt-40 pb-3 lg:pb-6 ">
+    <Section id="tipologia">
       <Container>
         <Subtitle>Tipología</Subtitle>
         <div className="items-start space-y-16 lg:space-y-0 lg:space-x-16 lg:flex">
@@ -66,6 +66,6 @@ export default function Features() {
           </div>
         </div>
       </Container>
-    </section>
+    </Section>
   );
 }

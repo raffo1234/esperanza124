@@ -13,10 +13,11 @@ import bathroom from "public/images/3.jpg";
 import bathroom2 from "public/images/4.jpg";
 import stairs from "public/images/1.jpg";
 import { Fade } from "react-reveal";
+import Section from "components/Section";
 
 export default function Gallery() {
   return (
-    <div id="galeria" className="pt-40 pb-3 lg:pb-6">
+    <Section id="galeria">
       <Container>
         <Subtitle>Galeria</Subtitle>
         <div className="space-y-5">
@@ -198,6 +199,6 @@ export default function Gallery() {
           </Fade>
         </div>
       </Container>
-    </div>
+    </Section>
   );
 }
