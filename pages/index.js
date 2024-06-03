@@ -32,7 +32,7 @@ export default function Home() {
           <meta name="description" content="Esperanza 124" />
         </Head>
         <Header />
-        <ScrollSpy activeClass="max-w-full">
+        <ScrollSpy activeClass="!max-w-full">
           {sections.map((SectionComponent, index) => (
             <SectionComponent key={index} />
           ))}
