@@ -7,18 +7,42 @@ import Container from "components/Container";
 import Subtitle from "components/Subtitle";
 import Section from "components/Section";
 import { Fade } from "react-reveal";
+import whatsapp from "public/icons/whatsapp.svg";
 
 export default function Address() {
   return (
     <Section id="ubicacion">
       <Container>
-        <Subtitle>Encuéntranos</Subtitle>
+        <div className="flex ">
+          <Subtitle>Agenda una visita</Subtitle>
+          <a
+            href="https://wa.me/51988226088"
+            className="flex items-center self-center justify-center p-2 ml-8 rounded bg-whatsapp"
+            target="_blank"
+            rel="noreferrer"
+            alt="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+          >
+            <Image
+              alt="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+              width="24"
+              height="24"
+              src={whatsapp}
+              title="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+            />
+          </a>
+        </div>
         <div className="p-3 bg-white rounded lg:p-6">
           <h3 className="flex items-center space-x-6">
             <div className="px-3 py-2 rounded bg-warning">
               <Image alt="" width="32" height="32" src={location} />
             </div>
-            <p>Pasaje La Esperanza 124, Pio Pata, El Tambo, Huancayo</p>
+            <p>
+              Dirección: Pasaje La Esperanza 124, Urb. Pio Pata, El Tambo,
+              Huancayo <br />
+              <span className="text-sm">
+                Referencia: A una cuadra del Colegio de Enfermeros
+              </span>
+            </p>
           </h3>
           <div className="w-full h-1 my-2 lg:my-6 bg-warning"></div>
           <Fade>
