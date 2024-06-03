@@ -9,7 +9,7 @@ const links = [
 
 export default function Document() {
   return (
-    <Html style={{ scrollBehavior: "smooth" }}>
+    <Html style={{ scrollBehavior: "smooth", scrollPaddingTop: 90 }}>
       <Head>
         {links.map((link, index) => (
           <link {...link} key={index} />

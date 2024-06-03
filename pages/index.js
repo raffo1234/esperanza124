@@ -7,6 +7,7 @@ import Gallery from "./sections/Gallery";
 import Address from "./sections/Address";
 import Footer from "./sections/Footer";
 import { NextSeo } from "next-seo";
+import ScrollSpy from "react-ui-scrollspy";
 
 const sections = [Hero, Features, Gallery, Address, Footer];
 
@@ -31,9 +32,11 @@ export default function Home() {
           <meta name="description" content="Esperanza 124" />
         </Head>
         <Header />
-        {sections.map((Section, index) => (
-          <Section key={index} />
-        ))}
+        <ScrollSpy activeClass="max-w-full">
+          {sections.map((SectionComponent, index) => (
+            <SectionComponent key={index} />
+          ))}
+        </ScrollSpy>
       </div>
     </>
   );

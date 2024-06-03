@@ -36,7 +36,10 @@ export default function Header() {
                 title="Tipología - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
               >
                 Tipología
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-warning"></span>
+                <span
+                  data-to-scrollspy-id="tipologia"
+                  className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-warning"
+                ></span>
               </a>
             </li>
             <li className="hidden sm:block">
@@ -47,7 +50,10 @@ export default function Header() {
                 title="Galeria - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
               >
                 Galeria
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-warning"></span>
+                <span
+                  data-to-scrollspy-id="galeria"
+                  className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-warning"
+                ></span>
               </a>
             </li>
             <li className="hidden sm:block">
@@ -58,7 +64,10 @@ export default function Header() {
                 alt="Ubicación - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
               >
                 Ubicación
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-warning"></span>
+                <span
+                  data-to-scrollspy-id="ubicacion"
+                  className=" block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-warning"
+                ></span>
               </a>
             </li>
           </ul>
