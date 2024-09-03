@@ -86,7 +86,7 @@ export default function Header() {
           <ul className="flex items-center gap-4">
             <li className="flex-shrink-0">
               <a
-                href="https://wa.me/51988226088"
+                href="https://api.whatsapp.com/send?phone=51988226088&text=Quiero%20reservar%20una%20cita!%F0%9F%91%8D%0A%0AProyecto%20Esperanza%20124%20Ubicacion%20en%20la%20urbanizacion%20Pio%20Pata%2C%20El%20Tambo%20Huancayo"
                 className="flex items-center justify-center p-2 rounded bg-whatsapp "
                 target="_blank"
                 rel="noreferrer"
