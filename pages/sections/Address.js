@@ -37,8 +37,8 @@ export default function Address() {
               <Image alt="" width="32" height="32" src={location} />
             </div>
             <p>
-              Dirección: Pasaje La Esperanza 124, Urb. Pio Pata, El Tambo,
-              Huancayo <br />
+              Dirección: Pasaje La Esperanza 124, Urbanización Pio Pata, El
+              Tambo, Huancayo <br />
               <span className="text-sm">
                 Referencia: A una cuadra del Colegio de Enfermeros
               </span>
