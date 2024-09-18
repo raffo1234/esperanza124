@@ -13,11 +13,11 @@ export default function Address() {
   return (
     <Section id="ubicacion">
       <Container>
-        <div className="flex ">
+        <div className="flex">
           <Subtitle>Agenda una visita</Subtitle>
           <a
             href="https://wa.me/51988226088/?text=Quiero%20reservar%20una%20cita.%20%0AProyecto%20Esperanza%20124%2C%20El%20Tambo%20Huancayo"
-            className="flex items-center self-center justify-center p-2 ml-8 rounded bg-whatsapp"
+            className="flex items-center self-start justify-center p-2 ml-8 rounded bg-whatsapp"
             target="_blank"
             rel="noreferrer"
             alt="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
