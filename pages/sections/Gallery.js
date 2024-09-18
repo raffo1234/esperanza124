@@ -20,10 +20,10 @@ export default function Gallery() {
     <Section id="galeria">
       <Container>
         <Subtitle>Galeria</Subtitle>
-        <div className="space-y-5">
+        <div className="space-y-3">
           <Fade>
-            <div className="flex items-center space-x-5">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg ">
+            <div className="flex items-center space-x-3">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image2}
                   className="relative z-10"
@@ -38,8 +38,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image6}
                   className="relative z-10"
@@ -51,7 +51,7 @@ export default function Gallery() {
                   quality={100}
                 />
               </div>
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image3}
                   className="relative z-10"
@@ -66,8 +66,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="flex items-center space-x-5">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="flex items-center space-x-3">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image4}
                   className="relative z-10"
@@ -82,8 +82,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image2}
                   className="relative z-10"
@@ -95,7 +95,7 @@ export default function Gallery() {
                   quality={100}
                 />
               </div>
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image5}
                   className="relative z-10"
@@ -110,8 +110,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="flex items-center space-x-5">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="flex items-center space-x-3">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={image3}
                   className="relative z-10"
@@ -126,8 +126,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={kitchen}
                   className="relative z-10"
@@ -139,7 +139,7 @@ export default function Gallery() {
                   quality={100}
                 />
               </div>
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={livingRoom}
                   className="relative z-10"
@@ -154,8 +154,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="flex items-center space-x-5">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="flex items-center space-x-3">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={stairs}
                   className="relative z-10"
@@ -170,8 +170,8 @@ export default function Gallery() {
             </div>
           </Fade>
           <Fade>
-            <div className="items-center space-y-5 lg:space-y-0 lg:space-x-5 lg:flex">
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+            <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={bathroom}
                   className="relative z-10"
@@ -183,7 +183,7 @@ export default function Gallery() {
                   quality={100}
                 />
               </div>
-              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-lg">
+              <div className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm">
                 <Image
                   src={bathroom2}
                   className="relative z-10"
