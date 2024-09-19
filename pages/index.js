@@ -8,6 +8,7 @@ import Address from "./sections/Address";
 import Footer from "./sections/Footer";
 import { NextSeo } from "next-seo";
 import ScrollSpy from "react-ui-scrollspy";
+import tipoc from "public/images/tipo-c.png";
 
 const sections = [Hero, Features, Gallery, Address, Footer];
 
@@ -17,12 +18,42 @@ export default function Home() {
       <NextSeo
         title="Esperanza 124"
         description="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-        canonical="https://esperanza124.com/"
+        canonical="https://esperanza124depas.com/"
         openGraph={{
           title: "Esperanza 124",
           description:
             "Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata",
-          url: "https://esperanza124.com/",
+          url: "https://esperanza124depas.com/",
+          images: [
+            {
+              url: "/static/front.jpg",
+              width: 800,
+              height: 600,
+              alt: "Esperanza 124",
+              type: "image/jpeg",
+            },
+            {
+              url: "/static/kitchen.jpg",
+              width: 800,
+              height: 600,
+              alt: "Kitchenet equipado",
+              type: "image/jpeg",
+            },
+            {
+              url: "/static/tipo-c.png",
+              width: 800,
+              height: 600,
+              alt: "Departamento tipo C",
+              type: "image/png",
+            },
+            {
+              url: "/static/tipo-a.png",
+              width: 800,
+              height: 600,
+              alt: "Departamento tipo A",
+              type: "image/png",
+            },
+          ],
           site_name: "Esperanza 124",
         }}
       />
