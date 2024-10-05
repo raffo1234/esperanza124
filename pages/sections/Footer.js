@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = now.getFullYear();
 
   return (
-    <div className="py-8">
+    <footer className="py-8">
       <Container>
         <div clasName="">
           <p className="text-xs text-right">
@@ -14,6 +14,6 @@ export default function Footer() {
           </p>
         </div>
       </Container>
-    </div>
+    </footer>
   );
 }
