@@ -16,16 +16,16 @@ export default function Hero() {
         <button
           onClick={() => setIsDay(true)}
           className={`${
-            isDay ? "opacity-100" : "opacity-40"
-          } hover:opacity-100 transition-opacity duration-500 ease-in-out h-12 w-12 flex items-center justify-center mb-3 bg-warning rounded-sm`}
+            isDay ? "opacity-100" : "opacity-40 hover:opacity-100"
+          } transition-opacity duration-500 ease-in-out h-12 w-12 flex items-center justify-center mb-3 bg-warning rounded-sm`}
         >
           <WiDaySunny size={32} />
         </button>
         <button
           onClick={() => setIsDay(false)}
           className={`
-          ${!isDay ? "opacity-100" : "opacity-40"}
-          hover:opacity-100 transition-opacity duration-500 ease-in-out flex items-center justify-center w-12 h-12 bg-black rounded-sm opacity-60 text-warning`}
+          ${!isDay ? "opacity-100" : "opacity-40 hover:opacity-100"}
+           transition-opacity duration-500 ease-in-out flex items-center justify-center w-12 h-12 bg-black rounded-sm text-warning`}
         >
           <MdNightlight size={24} />
         </button>
