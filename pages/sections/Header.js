@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import whatsapp from "public/icons/whatsapp.svg";
-import PdfIcon from "public/icons/pdf.svg";
 import Container from "components/Container";
+import { FaDownload } from "react-icons/fa";
 
 export default function Header() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -104,13 +104,14 @@ export default function Header() {
             <li className="flex-shrink-0">
               <a
                 download
-                alt="Brochure - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                alt="Brochure Virtual - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                title="Brochure Virtual - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                 href="/pdfs/esperanza124.pdf"
-                className="flex items-center justify-center p-2 space-x-2 text-white rounded bg-info"
+                className="flex items-center justify-center px-4 py-2 space-x-2 text-white rounded bg-info"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image alt="" width="24" height="24" src={PdfIcon} />{" "}
+                <FaDownload />
                 <span>Brochure</span>
               </a>
             </li>
