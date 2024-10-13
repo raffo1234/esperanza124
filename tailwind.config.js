@@ -15,6 +15,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        scale: {
+          "0%": { transform: "scale(0.95)", opacity: 0 },
+          "100%": { transform: "scale(1)", opacity: 1 },
+        },
+      },
+      animation: {
+        scale: "scale 0.3s",
+      },
       fontFamily: {
         sans: ["roboto", "sans-serif"],
         serif: ["italiana", "sans-serif"],
