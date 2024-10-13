@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import whatsapp from "public/icons/whatsapp.svg";
 import Container from "components/Container";
 import { FaDownload } from "react-icons/fa";
+import WhatsappButton from "components/WhatsappButton";
 
 export default function Header() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -85,21 +84,7 @@ export default function Header() {
           </h1>
           <ul className="flex items-center gap-4">
             <li className="flex-shrink-0">
-              <a
-                href="https://wa.me/51988226088/?text=Quiero%20reservar%20una%20cita.%20%0AProyecto%20Esperanza%20124%2C%20El%20Tambo%20Huancayo"
-                className="flex items-center justify-center p-2 rounded bg-whatsapp "
-                target="_blank"
-                rel="noreferrer"
-                alt="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-              >
-                <Image
-                  alt="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                  width="24"
-                  height="24"
-                  src={whatsapp}
-                  title="51988226088 - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                />
-              </a>
+              <WhatsappButton />
             </li>
             <li className="flex-shrink-0">
               <a
@@ -107,7 +92,7 @@ export default function Header() {
                 alt="Brochure Virtual - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                 title="Brochure Virtual - Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
                 href="/pdfs/esperanza124.pdf"
-                className="flex items-center justify-center px-4 py-2 space-x-2 text-white rounded bg-info"
+                className="flex items-center justify-center px-4 py-2 space-x-2 text-white border rounded bg-info hover:bg-white hover:border-info hover:text-info focus:outline-none focus:ring"
                 target="_blank"
                 rel="noreferrer"
               >

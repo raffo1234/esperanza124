@@ -46,7 +46,10 @@ module.exports = {
         warning: "#fdb80b",
         cream: "#dc9e00",
         danger: "#ff5570",
-        whatsapp: "#24d366",
+        whatsapp: {
+          500: "#24d366",
+          800: "#0AAC4B",
+        },
         brown: "#4F3829",
       },
     },
