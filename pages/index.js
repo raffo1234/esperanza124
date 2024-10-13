@@ -59,7 +59,7 @@ export default function Home() {
       />
       <div className="text-sm lg:text-base">
         <Head>
-          <title>Esperanza 124 Depas</title>
+          <title>Esperanza 124 Departamentos</title>
           <meta name="description" content="Esperanza 124" />
         </Head>
         <Header />
