@@ -107,7 +107,7 @@ export default function Gallery() {
                       setLightboxDisplay(true);
                       setImageToShow(image);
                     }}
-                    className="block w-full h-[350px] lg:h-[500px] focus:outline-none focus:ring rounded-sm"
+                    className="relative block w-full h-[350px] lg:h-[500px] focus:outline-none focus:ring rounded-sm"
                   >
                     <Image
                       src={image}
