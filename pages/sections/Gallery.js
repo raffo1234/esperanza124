@@ -99,192 +99,30 @@ export default function Gallery() {
         <Container>
           <Subtitle>Galeria</Subtitle>
           <div className="space-y-3">
-            <Fade>
-              <div className="flex items-center space-x-3">
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[0]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[0]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-              </div>
-            </Fade>
-            <Fade>
-              <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[1]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[1]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[2]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[2]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-              </div>
-            </Fade>
-            <Fade>
-              <div className="flex items-center space-x-3">
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[3]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[3]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-              </div>
-            </Fade>
-            <Fade>
-              <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[4]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[4]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[5]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[5]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-              </div>
-            </Fade>
-            <Fade>
-              <div className="flex items-center space-x-3">
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[6]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[6]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-              </div>
-            </Fade>
-            <Fade>
-              <div className="items-center space-y-3 lg:space-y-0 lg:space-x-3 lg:flex">
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[7]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[7]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-                <button
-                  onClick={() => {
-                    setLightboxDisplay(true);
-                    setImageToShow(images[8]);
-                  }}
-                  className="relative flex-1 h-[350px] lg:h-[500px] overflow-hidden rounded-sm"
-                >
-                  <Image
-                    src={images[8]}
-                    className="relative z-10"
-                    alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={100}
-                  />
-                </button>
-              </div>
-            </Fade>
+            {images.map((image, index) => {
+              return (
+                <Fade key={index}>
+                  <button
+                    onClick={() => {
+                      setLightboxDisplay(true);
+                      setImageToShow(image);
+                    }}
+                    className="block w-full h-[350px] lg:h-[500px] focus:outline-none focus:ring rounded-sm"
+                  >
+                    <Image
+                      src={image}
+                      className="transition duration-300 ease-in-out rounded-sm hover:scale-105"
+                      alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                      title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+                      layout="fill"
+                      objectFit="cover"
+                      objectPosition="center"
+                      quality={100}
+                    />
+                  </button>
+                </Fade>
+              );
+            })}
           </div>
         </Container>
       </Section>
