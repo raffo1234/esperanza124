@@ -14,6 +14,7 @@ import bathroom from "public/images/3.jpg";
 import bathroom2 from "public/images/4.jpg";
 import { Fade } from "react-reveal";
 import Section from "components/Section";
+import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
 
 const useEscape = (onEscape) => {
   useEffect(() => {
@@ -138,9 +139,9 @@ export default function Gallery() {
             quality={100}
           />
           <div className="absolute z-20 flex space-x-3 -translate-x-1/2 left-1/2 bottom-6">
-            {images.map((_, index) => (
+            {images.map((image, index) => (
               <button
-                onClick={() => setImageToShow(images[index])}
+                onClick={() => setImageToShow(image)}
                 key={index}
                 className={`flex items-center transition hover:bg-opacity-100 duration-500 ease-in-out justify-center w-6 h-6 rounded-full ${
                   index === currentIndex
@@ -155,12 +156,28 @@ export default function Gallery() {
               {currentIndex + 1}/{images.length}
             </div>
             <button
-              className="flex items-center justify-center w-12 h-12 transition-opacity duration-500 ease-in-out rounded-sm opacity-80 hover:opacity-100 bg-warning"
+              className="flex items-center justify-center w-12 h-12 transition-opacity duration-500 ease-in-out rounded-sm opacity-80 hover:opacity-100 bg-warning focus:outline-none focus:ring"
               onClick={() => setLightboxDisplay(false)}
             >
               <MdClose size={24} />
             </button>
           </div>
+          <button
+            className="absolute top-0 left-0 z-10 h-full p-4 focus:outline-none group"
+            onClick={showPrev}
+          >
+            <div className="flex items-center justify-center w-12 h-12 transition-opacity duration-500 ease-in-out rounded-sm group-focus:ring opacity-80 hover:opacity-100 bg-warning">
+              <GrLinkPrevious size={24} />
+            </div>
+          </button>
+          <button
+            className="absolute top-0 right-0 z-10 h-full p-4 focus:outline-none group"
+            onClick={showNext}
+          >
+            <div className="flex items-center justify-center w-12 h-12 transition-opacity duration-500 ease-in-out rounded-sm group-focus:ring opacity-80 hover:opacity-100 bg-warning">
+              <GrLinkNext size={24} />
+            </div>
+          </button>
         </section>
       ) : null}
     </>
