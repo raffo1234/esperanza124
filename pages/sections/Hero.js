@@ -76,11 +76,9 @@ export default function Hero() {
           />
         </div>
       </Fade>
-      <div className="absolute z-20 px-20 py-10 -translate-y-1/2 bg-warning top-1/2 left-4">
-        <p className="font-serif text-4xl text-right text-white lg:text-7xl lg:left-10">
-          Entrega <br /> Inmediata
-        </p>
-      </div>
+      <blockquote className="absolute z-20 px-20 py-10 font-serif text-4xl text-right text-white -translate-y-1/2 bg-warning top-1/2 left-4 lg:text-7xl lg:left-10">
+        Entrega <br /> Inmediata
+      </blockquote>
       <Fade>
         <div className="absolute bottom-0 left-0 right-0 z-20 flex-wrap items-center justify-center mx-auto sm:flex">
           <div className="flex items-center self-stretch px-5 py-4 space-x-4 lg:px-12 bg-warning text-blue-dark">
