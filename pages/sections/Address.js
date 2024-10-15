@@ -23,13 +23,15 @@ export default function Address() {
             <div className="px-3 py-2 rounded bg-warning">
               <Image alt="" width="32" height="32" src={location} />
             </div>
-            <p>
-              Dirección: Pasaje La Esperanza 124, Urbanización Pio Pata, El
-              Tambo, Huancayo <br />
-              <blockquote className="pl-4 text-sm ">
+            <div>
+              <p>
+                Dirección: Pasaje La Esperanza 124, Urbanización Pio Pata, El
+                Tambo, Huancayo <br />
+              </p>
+              <blockquote className="pl-2 mt-2 text-sm border-l-4">
                 Referencia: A una cuadra del Colegio de Enfermeros
               </blockquote>
-            </p>
+            </div>
           </h3>
           <div className="w-full h-1 my-2 lg:my-6 bg-warning"></div>
           <Fade>

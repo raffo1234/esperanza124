@@ -132,8 +132,8 @@ export default function Gallery() {
           <Image
             src={imageToShow}
             className="relative z-10 animate-scale"
-            alt="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
-            title="Esperanza 124, Departamentos en Venta en Huancayo El Tambo Pio Pata"
+            alt="Esperanza 124, Departamentos en Venta. Huancayo El Tambo Pio Pata"
+            title="Esperanza 124, Departamentos en Venta. Huancayo El Tambo Pio Pata"
             layout="fill"
             objectFit="cover"
             quality={100}

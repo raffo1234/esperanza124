@@ -8,11 +8,9 @@ export default function Footer() {
   return (
     <footer className="py-8">
       <Container>
-        <div clasName="">
-          <p className="text-xs text-right">
-            © {currentYear} Esperanza124. All rights reserved.
-          </p>
-        </div>
+        <p className="text-xs text-right">
+          © {currentYear} Esperanza124. All rights reserved.
+        </p>
       </Container>
     </footer>
   );
