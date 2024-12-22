@@ -105,7 +105,7 @@ export default function Features() {
                     </div>
                     <div>
                       <div className="text-sm">Pisos</div>
-                      <strong className="text-lg">6°</strong>
+                      <strong className="text-lg">6° y Terraza</strong>
                     </div>
                   </div>
                 </div>
